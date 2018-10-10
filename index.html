@@ -111,8 +111,7 @@
                                     <div class="w3-white w3-round">
                                         <div class="w3-dark-grey w3-round w3-center w3-padding-small w3-wide" style="width:50%"><span class="w3-hide-small">INTERMEDIATE</span></div>
                                     </div>
-                                    <p class="w3-wide" style="color:LightGreen">JavaScript | HTML + CSS<span class="w3-hide-small">| Kotlin</span><span class="w3-hide-medium w3-hide-large">
-                                        <button class="w3-circle w3-small w3-dark-grey" style="border:none"><span style="color:LightGreen">...</span></button></span></p>
+                                    <p class="w3-wide" style="color:LightGreen">JavaScript | HTML + CSS<span class="w3-hide-small">| Kotlin</span>
                                     <div class="w3-white w3-round">
                                         <div class="w3-dark-grey w3-round w3-center w3-padding-small w3-wide" style="width:33%"><span class="w3-hide-small">BEGINNER</span></div>
                                     </div><br>
@@ -128,16 +127,74 @@
                                     <h2 class="w3-text-light-grey">My Projects</h2>
                                     <hr style="width:200px" class="w3-opacity">
                                     
+                                    <style>
+                                        * {
+                                            box-sizing: border-box;
+                                        }
+                                    
+                                    body {
+                                        margxin: 0;
+                                        font-family: Arial;
+                                        font-size: 17px;
+                                    }
+                                    
+                                    .container {
+                                        position: relative;
+                                        max-width: 800px;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .container img {vertical-align: middle;}
+                                    
+                                    .container .content {
+                                        position: absolute;
+                                        bottom: 0;
+                                        background: rgb(0, 0, 0); /* Fallback color */
+                                        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                                        color: #f1f1f1;
+                                        width: 100%;
+                                        padding: 10px;
+                                    }
+                                    </style>
+                                    
+                                    <style>
+                                        img:hover {
+                                            opacity: 0.5;
+                                            filter: alpha(opacity=50); /* For IE8 and earlier */
+                                        }
+                                    </style>
+                                    
                                     <!-- Grid for photos -->
                                     <div class="w3-row w3-center">
                                         <div class="w3-half">
-                                            <img src="./photos/Squares.jpg" class="w3-middle w3-padding" style="width:99%">
+                                            <a href="https://github.com/lupini-beans/PPL/blob/master/PostScript/Squares.ps">
+                                            <div class="container">
+                                            <img src="./photos/Squares.jpg" class="w3-middle w3-padding" alt="Squares" style="width:99%">
+                                                <div class="content">
+                                                    <h4>Squares</h4>
+                                                </div>
+                                            </div>
+                                            </a>
                                         </div>
                                         <div class="w3-half">
+                                            <a href="https://github.com/lupini-beans/Algorithms-and-Algorithm-Analysis/blob/master/AdjacencyList.py">
+                                            <div class="container">
                                             <img src="./photos/Graphs.jpg" class="w3-middle w3-padding" style="width:100%">
+                                                <div class="content">
+                                                    <h4>Adjacancy List Graph</h4>
+                                                </div>
+                                            </div>
+                                            </a>
                                         </div>
                                         <div class="w3-half">
+                                            <a href="https://github.com/lupini-beans/PPL/tree/master/MalSyntax">
+                                            <div class="container">
                                             <img src="./photos/Lexer.jpg" class="w3-middle w3-padding" style="width:100%">
+                                                <div class="content">
+                                                    <h4>MAL Lexer</h4>
+                                                </div>
+                                            </div>
+                                            </a>
                                         </div>
                                         <!-- End photo grid -->
                                     </div>
