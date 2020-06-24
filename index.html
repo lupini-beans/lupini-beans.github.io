@@ -9,6 +9,7 @@
 		<title>LikeLinguine</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
@@ -19,7 +20,8 @@
 					<img src="images/code.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<h2>Software Developer</h2>
+							<h2 class="w3-hide-medium">Software Developer</h2>
+							<h3 class="w3-hide-small w3-hide-large" id="medium">Software Developer</h3>
 						</header>
 					</div>
 				</article>
@@ -27,7 +29,8 @@
 					<img src="images/cats.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<h2>Friend of Felines</h2>
+							<h2 class="w3-hide-medium">Friend of Felines</h2>
+							<h3 class="w3-hide-small w3-hide-large" id="medium">Friend of Felines</h3>
 						</header>
 					</div>
 				</article>
@@ -36,7 +39,8 @@
 					<div class="inner">
 						<header>
 							<p>St. John's, Newfoundland</p>
-							<h2>Explorer</h2>
+							<h2 class="w3-hide-medium">Explorer</h2>
+							<h2 class="w3-hide-small w3-hide-large" id="medium">Explorer</h2>
 						</header>
 					</div>
 				</article>
@@ -45,14 +49,15 @@
 					<div class="inner">
 						<header>
 							<p>Abasin, Colorado</p>
-							<h2>Skier</h2>
+							<h2 class="w3-hide-medium">Skier</h2>
+							<h2 class="w3-hide-small w3-hide-large" id="medium">Skier</h2>
 						</header>
 					</div>
 				</article>
 				<article>
 					<img src="images/skills.jpg" alt=""/>
-					<div class="inner skillbars">
-							<h2>Languages</h2>
+					<div class="inner w3-hide-large skillbars" id="small-bar">
+							<h2 id="medium">Languages</h2>
 							<div class="bar advanced" data-skill="Python"></div>
 							<div class="bar advanced" data-skill="C#"></div>
 							<div class="bar intermediate" data-skill="SQL"></div>
@@ -61,11 +66,21 @@
 							<div class="bar basic" data-skill="Java"></div>
 							<div class="bar learning" data-skill="Visual Basic"></div>
 					</div>
+					<div class="inner w3-hide-small w3-hide-medium skillbars" id="normal-bar">
+						<h2>Languages</h2>
+						<div class="bar advanced" data-skill="Python"></div>
+						<div class="bar advanced" data-skill="C#"></div>
+						<div class="bar intermediate" data-skill="SQL"></div>
+						<div class="bar intermediate" data-skill="HTML + CSS"></div>
+						<div class="bar basic" data-skill="JavaScript"></div>
+						<div class="bar basic" data-skill="Java"></div>
+						<div class="bar learning" data-skill="Visual Basic"></div>
+				</div>
 				</article>
 				<article>
 					<img src="images/skills.jpg" alt=""/>
-					<div class="inner skillbars">
-							<h2>Tools</h2>
+					<div class="inner skillbars w3-hide-large" id="small-bar">
+							<h2 id="medium">Tools</h2>
 							<div class="bar advanced" data-skill="Agile"></div>
 							<div class="bar advanced" data-skill="Git"></div>
 							<div class="bar intermediate" data-skill="Flask"></div>
@@ -73,6 +88,15 @@
 							<div class="bar basic" data-skill=".NET"></div>
 							<div class="bar basic" data-skill="PostgreSQL"></div>
 					</div>
+					<div class="inner skillbars w3-hide-medium w3-hide-small" id="normal-bar">
+						<h2>Tools</h2>
+						<div class="bar advanced" data-skill="Agile"></div>
+						<div class="bar advanced" data-skill="Git"></div>
+						<div class="bar intermediate" data-skill="Flask"></div>
+						<div class="bar intermediate" data-skill="SQL Server"></div>
+						<div class="bar basic" data-skill=".NET"></div>
+						<div class="bar basic" data-skill="PostgreSQL"></div>
+				</div>
 				</article>
 			</section>
 
