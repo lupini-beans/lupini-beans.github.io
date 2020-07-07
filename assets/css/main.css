@@ -71,17 +71,17 @@
   }
   .bar::before{
 	content:  attr(data-skill);
-	background-color: #4d0000;
+	background-color: #7b5e61;
 	display: inline-block;
 	padding: 5px 0 5px 10px;
 	border-radius: inherit;
   }
   
   .bar.front::before{
-	background-color: #4d0000;
+	background-color: #7b5e61;
   }
   .bar.back::before{
-	background-color: #4d0000;
+	background-color: #7b5e61;
   }
   
   .bar.learning::before{
